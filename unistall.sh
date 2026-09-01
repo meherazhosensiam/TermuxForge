@@ -34,4 +34,4 @@ termux-reload-settings 2>/dev/null || true
 echo ""
 echo "[+] Uninstallation complete."
 echo "[!] Packages such as zsh, git, curl, nano, figlet, toilet,"
-echo "[!] and fastfetch were NOT removed."
+echo "[!] and fastfetch were  removed."
