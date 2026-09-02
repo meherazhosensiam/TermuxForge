@@ -4,7 +4,7 @@ set -e
 
 echo "[+] Updating packages..."
 pkg update -y
-lpkg upgrade -y
+pkg upgrade -y
 
 echo "[+] Installing packages..."
 pkg install -y \
