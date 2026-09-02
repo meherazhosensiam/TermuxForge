@@ -6,7 +6,6 @@ echo "[+] Removing installed packages..."
 pkg uninstall -y \
     zsh \
     git \
-    curl \
     nano \
     figlet \
     toilet \
