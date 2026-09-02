@@ -22,7 +22,11 @@ rm -rf "$HOME/.zsh/zsh-autosuggestions"
 rmdir "$HOME/.zsh" 2>/dev/null || true
 
 echo "[+] Removing custom Zsh configuration..."
+
 rm -f "$HOME/.zshrc"
+echo "[+] Removing custom Zsh configuration..."
+
+rm -f "$HOME/.bashrc"
 
 echo "[+] Removing Termux color configuration..."
 rm -f "$HOME/.termux/colors.properties"
@@ -32,5 +36,5 @@ termux-reload-settings 2>/dev/null || true
 
 echo ""
 echo "[+] Uninstallation complete."
-echo "[!] Packages such as zsh, git, curl, nano, figlet, toilet,"
+echo "[!] Packages such as zsh, git, nano, figlet, toilet,"
 echo "[!] and fastfetch were  removed."
