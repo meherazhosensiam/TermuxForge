@@ -14,7 +14,7 @@ pkg install -y \
     nano \
     figlet \
     toilet \
-    fastfetch \
+    fastfetch 
 
 echo "[+] Creating Termux configuration..."
 mkdir -p ~/.termux
